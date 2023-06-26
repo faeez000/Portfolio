@@ -30,7 +30,9 @@ export default function Home() {
       <main className=" bg-white  px-10 md:px-20 lg:px-40 dark:bg-gray-900 ">
         <section className="  min-h-screen">
           <nav className=" py-10 mb-12 flex  justify-between">
-            <h1 className=" text-xl font-burtons">This my Faeez Portfolio</h1>
+            <h1 className=" text-xl font-burtons dark:text-white">
+              This my Faeez Portfolio
+            </h1>
             <ul className=" flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -52,10 +54,10 @@ export default function Home() {
             <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Faeez Shaikh
             </h2>
-            <h3 className=" text-2xl py-2 md:text-3xl">
+            <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">
               Software developer and Frontend Designer
             </h3>
-            <p className=" text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+            <p className=" text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto  dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
               eum nulla repudiandae inventore sequi recusandae at, sunt, illum
               ipsa velit odio beatae! Minima, vel animi at ipsum molestiae fuga
@@ -80,8 +82,8 @@ export default function Home() {
         {/* Second Page Section  */}
         <section>
           <div>
-            <h3 className=" text-3xl py-1">Services I Offer</h3>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <h3 className=" text-3xl py-1 dark:text-white">Services I Offer</h3>
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <span className=" text-teal-500">Ipsa cupiditate</span>
               excepturi similique quaerat{" "}
@@ -89,7 +91,7 @@ export default function Home() {
               sed facere minus corporis in qui alias deleniti dolores saepe
               laudantium explicabo, dignissimos quibusdam.
             </p>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               accusantium laborum dolorem nam vero expedita eum, eveniet impedit
               quo et, provident corporis culpa excepturi assumenda quam iusto
@@ -104,18 +106,18 @@ export default function Home() {
                 height={100}
                 alt="This id Design image"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Beautiful Designs
               </h3>
-              <p className="py-2">
+              <p className="py-2 ">
                 Creating elegant designs suited for the project needs following
                 design theory
               </p>
               <h4 className=" py-4 text-teal-500">Design Tools I Use</h4>
-              <p className=" text-gray-800 py-1">Figma</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <p className=" text-gray-800 py-1 ">Figma</p>
+              <p className=" text-gray-800 py-1 ">Photoshop</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
               <Image
                 src={code}
                 width={100}
@@ -128,10 +130,10 @@ export default function Home() {
                 design theory
               </p>
               <h4 className=" py-4 text-teal-500">Design Tools I Use</h4>
-              <p className=" text-gray-800 py-1">Figma</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <p className=" text-gray-800 py-1 ">Figma</p>
+              <p className=" text-gray-800 py-1 ">Photoshop</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  ">
               <Image
                 src={consulting}
                 width={100}
@@ -153,7 +155,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className=" text-3xl py-1">Portfolio</h3>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <span className=" text-teal-500">Ipsa cupiditate</span>
               excepturi similique quaerat{" "}
@@ -161,7 +163,7 @@ export default function Home() {
               sed facere minus corporis in qui alias deleniti dolores saepe
               laudantium explicabo, dignissimos quibusdam.
             </p>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               accusantium laborum dolorem nam vero expedita eum, eveniet impedit
               quo et, provident corporis culpa excepturi assumenda quam iusto
