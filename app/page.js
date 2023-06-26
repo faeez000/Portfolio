@@ -117,7 +117,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1 ">Figma</p>
               <p className=" text-gray-800 py-1 ">Photoshop</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={code}
                 width={100}
@@ -133,7 +133,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1 ">Figma</p>
               <p className=" text-gray-800 py-1 ">Photoshop</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  ">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
               <Image
                 src={consulting}
                 width={100}
